@@ -1,0 +1,46 @@
+.w-100 {
+    width: 100% !important;
+    height: 84vh;
+}
+
+.box {
+    width: 62%;
+    margin-left: 20.5%;
+    text-align: center;
+    font-size: 113%;
+    margin-top: 3%;
+}
+
+#p {
+    font-size: 100%;
+    font-weight: bold;
+    width: 90%;
+    margin-left: 8%;
+    text-align: center;
+}
+
+.os {
+    text-align: center;
+    font-size: 166%;
+}
+
+.col-sm {
+    padding-top: 3%;
+}
+
+.imagelogo{
+    height: 100%;
+    padding-top: 3%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3%;
+}
+.imagelogo:hover{
+    background-image: url(../assets/Image/servicebg.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.clearfiximage{
+    padding-bottom: 3%;
+}
