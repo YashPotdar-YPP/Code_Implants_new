@@ -44,3 +44,72 @@
 .clearfiximage{
     padding-bottom: 3%;
 }
+
+.h3{
+    padding-bottom: 3%;
+    padding-top: 3%;
+
+}
+.technology{
+    border: 2px solid black;
+}
+.Bluebox{
+    background-color: #082b5b;
+    margin-top: 4%;
+    padding-bottom: 4%;
+
+}
+.Threebox{
+    border: 2px solid white;
+    margin: 1%;
+}
+.blueboxtext{
+    color: white;
+    font-size: x-large;
+}
+.languagelogo{
+    width: 44px;
+    margin-top: 2%;
+}
+.ioslogo{
+    width: 66px;
+}
+.blueboxname{
+    color: white;
+}
+.Greenbox{
+    background-color: rgba(0, 200, 129, 1.85);;
+    margin-top: -4%;
+}
+.Greenboxtext{
+    text-align: center;
+    padding-right: 10%;
+    display: block;
+    font-size: xx-large;
+    color: white;
+}
+.GreenboxPara{
+    color: white;
+    font-size: large;
+    padding-bottom: 25px;
+}
+.Whitebox{
+    background-color: white;
+    border: 1px solid black;
+    margin-top: -4%;
+}
+.logo{
+    margin-top: 10%;
+}
+
+.ajaxlogo {
+    width: 50px;
+}
+
+.footerlogo{
+    width: 29px;
+}
+
+.footerImg{
+    width: 100%;
+}
