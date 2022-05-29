@@ -9,12 +9,11 @@ h1 {
     text-align: center;
 }
 
-img {
-    height: 140px;
-}
-
 .container {
     margin-top: 50px;
     width: 600px;
     height: auto;
+}
+.footerlogo {
+    width: 33px;
 }
