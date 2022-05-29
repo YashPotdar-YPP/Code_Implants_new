@@ -1,0 +1,20 @@
+.card {
+    width: 270px;
+    height: 400px;
+    padding: 5px;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
+img {
+    height: 140px;
+}
+
+.container {
+    margin-top: 50px;
+    width: 600px;
+    height: auto;
+}

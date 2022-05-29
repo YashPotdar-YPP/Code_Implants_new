@@ -6,9 +6,7 @@
 .box {
     width: 62%;
     margin-left: 20.5%;
-    text-align: center;
     font-size: 113%;
-    margin-top: 3%;
 }
 
 #p {
@@ -19,86 +17,54 @@
     text-align: center;
 }
 
-.os {
-    text-align: center;
-    font-size: 166%;
-}
-
-.col-sm {
-    padding-top: 3%;
-}
-
-.imagelogo{
+.imagelogo {
     height: 100%;
     padding-top: 3%;
     border: 2px solid black;
     border-radius: 5px;
     padding: 3%;
 }
-.imagelogo:hover{
+
+.imagelogo:hover {
     background-image: url(../assets/Image/servicebg.PNG);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
 }
-.clearfiximage{
-    padding-bottom: 3%;
-}
 
-.h3{
-    padding-bottom: 3%;
-    padding-top: 3%;
-
-}
-.technology{
-    border: 2px solid black;
-}
-.Bluebox{
+.Bluebox {
     background-color: #082b5b;
     margin-top: 4%;
     padding-bottom: 4%;
 
 }
-.Threebox{
-    border: 2px solid white;
-    margin: 1%;
-}
-.blueboxtext{
+
+.blueboxtext {
     color: white;
     font-size: x-large;
 }
-.languagelogo{
+
+.languagelogo {
     width: 44px;
     margin-top: 2%;
 }
-.ioslogo{
+
+.ioslogo {
     width: 66px;
 }
-.blueboxname{
-    color: white;
-}
-.Greenbox{
-    background-color: rgba(0, 200, 129, 1.85);;
+
+.Greenbox {
+    background-color: rgba(0, 200, 129, 1.85);
+    ;
     margin-top: -4%;
 }
-.Greenboxtext{
-    text-align: center;
-    padding-right: 10%;
-    display: block;
-    font-size: xx-large;
-    color: white;
-}
-.GreenboxPara{
-    color: white;
-    font-size: large;
-    padding-bottom: 25px;
-}
-.Whitebox{
-    background-color: white;
+
+.Whitebox {
     border: 1px solid black;
     margin-top: -4%;
 }
-.logo{
+
+.logo {
     margin-top: 10%;
 }
 
@@ -106,10 +72,6 @@
     width: 50px;
 }
 
-.footerlogo{
+.footerlogo {
     width: 33px;
-}
-
-.footerImg{
-    width: 100%;
 }

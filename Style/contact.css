@@ -1,0 +1,12 @@
+ .Greenbox {
+     background-color: rgba(0, 200, 129, 1.85);
+     ;
+ }
+
+ .Whitebox {
+     border: 1px solid black;
+ }
+
+ .footerlogo {
+     width: 33px;
+ }
