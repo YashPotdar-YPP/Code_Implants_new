@@ -1,35 +1,17 @@
+
+/* ---------------------------------------------------------------------------------- 
+                                        Common Styles
+-------------------------------------------------------------------------------------- */
+
 .w-100 {
     width: 100% !important;
     height: 84vh;
 }
 
-.box {
-    width: 62%;
-    margin-left: 20.5%;
-    font-size: 113%;
-}
-
-#p {
-    font-size: 100%;
-    font-weight: bold;
-    width: 90%;
-    margin-left: 8%;
-    text-align: center;
-}
-
 .imagelogo {
     height: 100%;
-    padding-top: 3%;
     border: 2px solid black;
     border-radius: 5px;
-    padding: 3%;
-}
-
-.imagelogo:hover {
-    background-image: url(../assets/Image/servicebg.PNG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
 }
 
 .Bluebox {
@@ -39,9 +21,36 @@
 
 }
 
-.blueboxtext {
+.sendImg {
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.footerlogo {
+    width: 33px;
+}
+
+
+
+/* ---------------------------------------------------------------------------------- 
+                                          index.html 
+-------------------------------------------------------------------------------------- */
+
+
+.box {
+    width: 62%;
+    margin-left: 20.5%;
+    font-size: 113%;
+}
+
+.imagelogo:hover {
+    background-image: url(../assets/Image/servicebg.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
-    font-size: x-large;
 }
 
 .languagelogo {
@@ -55,12 +64,10 @@
 
 .Greenbox {
     background-color: rgba(0, 200, 129, 1.85);
-    ;
     margin-top: -4%;
 }
 
 .Whitebox {
-    border: 1px solid black;
     margin-top: -4%;
 }
 
@@ -72,6 +79,72 @@
     width: 50px;
 }
 
-.footerlogo {
-    width: 33px;
+.firstText {
+    font-size: 100%;
+    font-weight: bold;
+    width: 90%;
+    margin-left: 8%;
+    text-align: center;
 }
+
+
+/* ----------------------------------------------------------------------------------
+                            Web design and development.html 
+ ----------------------------------------------------------------------------------*/
+
+.mainimg{
+    height: 80vh;
+}
+.uidevlop{
+    width: 42%;
+}
+
+
+/* ---------------------------------------------------------------------------------- 
+                                software development.html
+-------------------------------------------------------------------------------------- */
+
+
+.devTextSoft {
+    height: 67vh;
+}
+
+.para1{
+    padding-left: 8%;
+}
+.div4 {
+    margin-left: 10%;
+    width: 39%;
+}
+
+.blueText{
+    color: #0C1842;
+}
+
+
+
+/* mobile app.html */
+
+.Whiteboxmobile {
+    margin-top: -4%;
+}
+
+.mobColor {
+    color: #0C1842;
+}
+
+.maimg{
+    margin-top: 12%;
+}
+
+
+
+/* ---------------------------------------------------------------------------------- 
+                                        contact.html 
+-------------------------------------------------------------------------------------- */
+
+.Greenboxcontact {
+    background-color: rgba(0, 200, 129, 1.85);
+}
+
+
