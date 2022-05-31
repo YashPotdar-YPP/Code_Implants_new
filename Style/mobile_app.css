@@ -1,0 +1,33 @@
+/* ---------------------------------------------------------------------------------- 
+                                mobile app.html
+-------------------------------------------------------------------------------------- */
+
+
+.Whiteboxmobile {
+    margin-top: -4%;
+}
+
+.mobColor {
+    color: #0C1842;
+}
+
+.maimg {
+    margin-top: 12%;
+}
+
+.Bluebox {
+    background-color: #082b5b;
+    margin-top: 4%;
+    padding-bottom: 4%;
+
+}
+
+.footerlogo {
+    width: 33px;
+}
+
+
+.w-100 {
+    width: 100% !important;
+    height: 84vh;
+}

@@ -1,0 +1,28 @@
+/* ----------------------------------------------------------------------------------
+                            Web design and development.html 
+ ----------------------------------------------------------------------------------*/
+
+.mainimg {
+    height: 80vh;
+}
+
+.uidevlop {
+    width: 42%;
+}
+
+.imagelogo {
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.footerlogo {
+    width: 33px;
+}
+
+.imagelogo:hover {
+    background-image: url(../assets/Image/servicebg.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}

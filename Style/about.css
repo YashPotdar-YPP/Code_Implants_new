@@ -1,3 +1,9 @@
+
+/* ---------------------------------------------------------------------------------- 
+                                        About.html 
+-------------------------------------------------------------------------------------- */
+
+
 .card {
     width: 270px;
     height: 400px;
@@ -9,14 +15,18 @@
     margin-top: 4%;
     padding-bottom: 4%;
 
-}.blueboxtext {
+}
+
+.blueboxtext {
     color: white;
 }
+
 .container {
     margin-top: 50px;
     width: 600px;
     height: auto;
 }
+
 .footerlogo {
     width: 33px;
 }
@@ -33,12 +43,12 @@
     height: 37vh;
 }
 
-.abouth2{
+.abouth2 {
     padding-top: 11%;
     padding-left: 7%;
 }
 
-.aboutpara{
+.aboutpara {
     padding-left: 7%;
     padding-right: 35%;
 }
@@ -48,6 +58,6 @@
     margin-top: -7%;
 }
 
-.overallImg{
+.overallImg {
     margin-left: 12%;
 }

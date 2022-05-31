@@ -1,40 +1,3 @@
-
-/* ---------------------------------------------------------------------------------- 
-                                        Common Styles
--------------------------------------------------------------------------------------- */
-
-.w-100 {
-    width: 100% !important;
-    height: 84vh;
-}
-
-.imagelogo {
-    height: 100%;
-    border: 2px solid black;
-    border-radius: 5px;
-}
-
-.Bluebox {
-    background-color: #082b5b;
-    margin-top: 4%;
-    padding-bottom: 4%;
-
-}
-
-.sendImg {
-
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-}
-
-.footerlogo {
-    width: 33px;
-}
-
-
-
 /* ---------------------------------------------------------------------------------- 
                                           index.html 
 -------------------------------------------------------------------------------------- */
@@ -87,64 +50,25 @@
     text-align: center;
 }
 
-
-/* ----------------------------------------------------------------------------------
-                            Web design and development.html 
- ----------------------------------------------------------------------------------*/
-
-.mainimg{
-    height: 80vh;
-}
-.uidevlop{
-    width: 42%;
+.imagelogo {
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
+.Bluebox {
+    background-color: #082b5b;
+    margin-top: 4%;
+    padding-bottom: 4%;
 
-/* ---------------------------------------------------------------------------------- 
-                                software development.html
--------------------------------------------------------------------------------------- */
-
-
-.devTextSoft {
-    height: 67vh;
 }
 
-.para1{
-    padding-left: 8%;
-}
-.div4 {
-    margin-left: 10%;
-    width: 39%;
-}
-
-.blueText{
-    color: #0C1842;
+.footerlogo {
+    width: 33px;
 }
 
 
-
-/* mobile app.html */
-
-.Whiteboxmobile {
-    margin-top: -4%;
+.w-100 {
+    width: 100% !important;
+    height: 84vh;
 }
-
-.mobColor {
-    color: #0C1842;
-}
-
-.maimg{
-    margin-top: 12%;
-}
-
-
-
-/* ---------------------------------------------------------------------------------- 
-                                        contact.html 
--------------------------------------------------------------------------------------- */
-
-.Greenboxcontact {
-    background-color: rgba(0, 200, 129, 1.85);
-}
-
-
