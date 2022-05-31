@@ -111,31 +111,38 @@
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Name</label>
-                                    <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+                                    <input type="text" class="form-control" id="inputEmail4" placeholder="Name"
+                                        title="Ex: John Doe" pattern="[a-zA-Z'-'\s]*" required>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Email</label>
-                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email"
+                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Ex : abc@gmail.com"
+                                        required>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Phone No</label>
-                                    <input type="text" class="form-control" id="inputEmail4" placeholder="Phone No">
+                                    <input type="tel" class="form-control" id="inputEmail4" placeholder="Phone No"
+                                        maxlength="10"
+                                        title="Contacts Starting with 7,8,9 are only allowed, Ex : 9876543210"
+                                        pattern="[789][0-9]{9}" required>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Website</label>
-                                    <input type="text" class="form-control" id="inputEmail4" placeholder="Website">
+                                    <input type="url" class="form-control" id="inputEmail4" placeholder="Website"
+                                        pattern="https?://.+" title="Ex : http://codeimplants.com/">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="comment">Brief Requirement</label>
                                 <textarea class="form-control" rows="5" id="comment"
-                                    placeholder="Describe your Enquiry!"></textarea>
+                                    placeholder="Describe your Enquiry!" maxlength="800"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary">Submit Request</button>
                         </form>
